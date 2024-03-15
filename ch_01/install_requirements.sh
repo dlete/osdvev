@@ -4,6 +4,7 @@ sudo apt-get install \
     binutils \
     tree \
     qemu \
+    qemu-system \
     gdb \
     make \
     nasm \
@@ -14,7 +15,6 @@ sudo apt-get install \
     e2fsprogs \
     parted \
     -y \
-#sudo apt dist-upgrade -y
 sudo apt clean
 sudo apt autoclean
 #    ld \ part of binutils
